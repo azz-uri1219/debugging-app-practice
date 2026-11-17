@@ -1,3 +1,32 @@
+# debugging-app-practice
+
+## 概要
+
+COACHTECH 教材 Tutorial 10-4「デバッグ ハンズオン演習」で作成した成果物です。
+
+- バグが含まれたユーザー登録機能
+- 上記をデバックし正しく動作するように修正するプログラム
+- プログラムの経過でログを出力する
+
+## 使用技術
+
+- PHP 8.x
+- Laravel 10.x
+- デバッグツール（`dd()`, `dump()`, `Log` ファサード）
+- GitHub
+
+## 学んだこと
+
+- dd()によるリクエストデータの確認方法
+- 10-2のアーキテクチャ理解
+- ミドルウェアについて
+
+## 動作確認
+
+- バグが含まれるスターターキットを動かし、エラーメッセージを確認する
+- dd(),ログを起こすコードを入力し、出力された内容を確認する
+- コードを修正し正常に動作することを確認
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
